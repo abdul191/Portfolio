@@ -1,0 +1,15 @@
+.buttons{
+    background-color: #f6e05e !important;
+    transition: transform 0.18s ease-in-out, background-color 0.18s ease-in-out !important;
+    border-radius: 3rem !important;
+    border: none !important;
+    transition: transform 0.18s ease-in-out;
+
+}
+.buttons:hover{
+    background-color: rgb(247, 222, 80)
+    !important;
+    border: none !important;
+    transform: scale(1.1);
+
+}
