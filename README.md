@@ -1,1 +1,1 @@
-ttps://abdul191.github.io/Portfolio/
+https://abdul191.github.io/Portfolio/
