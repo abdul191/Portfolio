@@ -1,500 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container">
-        <a class="navbar-brand" style="font-weight: bolder" href="#">Abdul</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto lead">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#AboutSection"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactMe">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Hero Section -->
-    <div class="container-fluid bg-light">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <img
-              src="./assets/images/hero.svg"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy" />
-          </div>
-          <div class="col-lg-6">
-            <h6>HELLO!</h6>
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              I’m Abdul Rehman
-            </h1>
-            <p class="lead">Web Developer & Mobile Application Developer</p>
-            <div class="py-2">
-              <a href="www.google.com"
-                ><img
-                  src="./assets/images/facebook.svg"
-                  alt=""
-                  style="padding-right: 10px"
-              /></a>
-              <a href="www.google.com"
-                ><img
-                  src="./assets/images/instagram.svg"
-                  alt=""
-                  style="padding-right: 10px"
-              /></a>
-              <a href="www.google.com"
-                ><img
-                  src="./assets/images/twitter-x.svg"
-                  alt=""
-                  style="padding-right: 10px"
-              /></a>
-              <a href="www.google.com"
-                ><img src="./assets/images/linkedin.svg" alt=""
-              /></a>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button
-                type="button"
-                class="btn buttons btn-lg px-4 mt-4 me-md-2"
-                fdprocessedid="8waa8j">
-                Get In Touch
-                <img src="./assets/images//arrow-right-short.svg" alt="" />
-              </button>
-            </div>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" style="font-weight: bolder" href="#">Abdul</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto lead">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#AboutSection">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactMe">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div class="container-fluid bg-light">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <img src="./assets/images/hero.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy" />
+        </div>
+        <div class="col-lg-6">
+          <h6 class="lead">HELLO!</h6>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            I’m Abdul Rehman
+          </h1>
+          <p class="lead">Welcome To My World Of Web Development.</p>
+          <div class="py-2">
+            <a href="https://www.facebook.com/profile.php?id=100051604160326&mibextid=ZbWKwL"><img
+                src="./assets/images/facebook.svg" alt="facebook" style="padding-right: 10px" /></a>
+            <a href="https://instagram.com/itz_abdulrehman_?igshid=OGQ5ZDc2ODk2ZA=="><img
+                src="./assets/images/instagram.svg" alt="instagram" style="padding-right: 10px" /></a>
+            <a href="https://x.com/Abdul15721?t=mwImVK30omRKnbU-OD9yDg&s=08"><img src="./assets/images/twitter-x.svg"
+                alt="X/twitter" style="padding-right: 10px" /></a>
+            <a href="https://www.linkedin.com/in/abdul-rehman-08bb78200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img
+                src="./assets/images/linkedin.svg" alt="linkedin" style="padding-right: 10px"/></a>
+                <a href="https://github.com/abdul191">
+                  <img src="./assets/images/github.svg" alt="github" >
+                </a>
+          </div>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a type="button" class="btn buttons btn-lg px-4 mt-4 me-md-2" href="#contactMe">
+              Get In Touch
+              <img src="./assets/images//arrow-right-short.svg" alt="Get in touch" />
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- About Section -->
-    <div class="container-fluid" id="AboutSection">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <h2>Hello! I’m Abdul Rehman.</h2>
-            <p class="lead">
-              I am passionate about UI/UX design and Web Design. I am a skilled
-              front-end developer and master of graphic design tools such as
-              Photoshop and Sketch. I am a quick learner and a team worker that
-              gets the job done. I can easily capitalize on low hanging fruits
-              and quickly maximize timely deliverables for real-time schemas.
-            </p>
-            <div class="row mt-3">
-              <div class="col-sm-2">
-                <div class="pb-1">Age:</div>
-              </div>
-              <div class="col-sm-10">
-                <div class="pb-1 fw-bolder">23</div>
-              </div>
-              <div class="col-sm-2">
-                <div class="pb-1">Email:</div>
-              </div>
-              <div class="col-sm-10">
-                <div class="pb-1 fw-bolder">abdul191006@gmail.com</div>
-              </div>
-              <div class="col-sm-2">
-                <div class="pb-1">Phone:</div>
-              </div>
-              <div class="col-sm-10">
-                <div class="pb-1 fw-bolder">+92 333 5942681</div>
-              </div>
-              <div class="col-sm-2">
-                <div class="pb-1">Address:</div>
-              </div>
-              <div class="col-sm-10">
-                <div class="pb-1 fw-bolder">Peshawar, Pakistan</div>
-              </div>
-              <div class="col-sm-2">
-                <div class="pb-1">Status:</div>
-              </div>
-              <div class="col-sm-10">
-                <div class="pb-1 fw-bolder">Available</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img
-              src="./assets/images/IMG_20221112_212842_754.jpg"
-              class="d-block mx-lg-auto img-fluid picture"
-              alt="Bootstrap Themes"
-              width="700"
-              height="600"
-              loading="lazy" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- My Services -->
-    <div class="container" id="services">
-      <div class="text-center">
-        <h2 class="marker marker-center">My Services</h2>
-        <p class="mx-auto mb-3 lead" style="max-width: 600px">
-          I offer services fit for any website or app. I can quickly maximize
-          timely deliverables for real-time schemas.
-        </p>
-      </div>
-      <div class="row py-3">
-        <div class="col-md-3 text-center">
-          <img
-            class="mb-2"
-            src="assets/images/pc-display-horizontal.svg"
-            width="96"
-            height="96"
-            alt="web design" />
-          <h5>Web Design</h5>
-        </div>
-        <div class="col-md-3 text-center">
-          <img
-            class="mb-2"
-            src="assets/images/pc-display-horizontal.svg"
-            width="96"
-            height="96"
-            alt="graphic design" />
-          <h5>Graphic Design</h5>
-        </div>
-        <div class="col-md-3 text-center">
-          <img
-            class="mb-2"
-            src="assets/images/pc-display-horizontal.svg"
-            width="96"
-            height="96"
-            alt="ui-ux" />
-          <h5>UI/UX</h5>
-        </div>
-        <div class="col-md-3 text-center">
-          <img
-            class="mb-2"
-            src="assets/images/phone.svg"
-            width="96"
-            height="96"
-            alt="app development" />
-          <h5>App Development</h5>
-        </div>
-      </div>
-    </div>
-    <!-- Skills -->
-      <div class="container my-5" id="skills">
-        <div class="text-center">
-          <h2 >My Skills</h2>
-          <p class="mx-auto mb-3 lead" style="max-width: 600px">
-            I am a quick learner and specialize in multitude of skills required
-            for Web Application Development and Product Design
+  </div>
+  <!-- About Section -->
+  <div class="container-fluid" id="AboutSection">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h2>Greetings, I'm Abdul Rehman.</h2>
+          <p class="lead">
+            A passionate advocate for UI/UX design and web development. With a knack for creating captivating digital experiences, I'm a skilled front-end developer who's quick to learn and a natural team player. I take pride in delivering on-time projects and seizing opportunities to make the web a better place.
           </p>
-        </div>
-        <div class="bg-light py-3 rounded-2">
-          <div class="row px-2">
-            <div class="col-md-5">
-              <div class="py-1">
-                <div class="d-flex text-small fw-bolder">
-                  <span class="me-auto">HTML5</span><span>90%</span>
-                </div>
-                <div class="progress my-1">
-                  <div
-                    class=" bg-warning"
-                    role="progressbar"
-                    style="width: 90%"
-                    ></div>
-                </div>
-              </div>
-              <div class="py-1">
-                <div class="d-flex text-small fw-bolder">
-                  <span class="me-auto">CSS3</span><span>90%</span>
-                </div>
-                <div class="progress my-1">
-                  <div
-                    class="progress-bar bg-warning"
-                    role="progressbar"
-                    style="width: 90%"></div>
-                </div>
-              </div>
-
+          <div class="row mt-3 lead">
+            <div class="col-sm-2">
+              <div class="pt-2">Email:</div>
             </div>
-            
-            <div class="col-md-5 offset-md-2">
-              <div class="py-1">
-                <div class="d-flex text-small fw-bolder">
-                  <span class="me-auto">JavaScript</span><span>80%</span>
-                </div>
-                <div class="progress my-1">
-                  <div
-                    class="progress-bar bg-warning"
-                    role="progressbar"
-                    style="width: 80%">
-                  </div>
-                </div>
-              </div>
-              <div class="py-1">
-                <div class="d-flex text-small fw-bolder">
-                  <span class="me-auto">React</span><span>75%</span>
-                </div>
-                <div class="progress my-1">
-                  <div
-                    class="progress-bar bg-warning"
-                    role="progressbar"
-                    style="width: 75%"></div>
-                </div>
-              </div>
+            <div class="col-sm-10">
+              <div class="pt-2 fw-bolder">abdul191006@gmail.com</div>
+            </div>
+            <div class="col-sm-2">
+              <div class="pt-2">Phone:</div>
+            </div>
+            <div class="col-sm-10">
+              <div class="pt-2 fw-bolder">+92 333 5942681</div>
+            </div>
+            <div class="col-sm-2">
+              <div class="pt-2">Address:</div>
+            </div>
+            <div class="col-sm-10">
+              <div class="pt-2 fw-bolder">Peshawar, Pakistan</div>
+            </div>
+            <div class="col-sm-2">
+              <div class="pt-2">Status:</div>
+            </div>
+            <div class="col-sm-10">
+              <div class="pt-2 fw-bolder">Available</div>
             </div>
           </div>
         </div>
+        <div class="col-lg-6">
+          <img src="./assets/images/IMG_20221112_212842_754.jpg" class="d-block mx-lg-auto img-fluid picture"
+            alt="Bootstrap Themes" width="700" height="600" loading="lazy" />
+        </div>
+      </div>
     </div>
-    <!-- Portfolio -->
-      <div class="container my-5" id="portfolio">
-      <div class="text-center mb-3">
-      <h2 class="marker marker-center">Portfolio </h2>
+  </div>
+  <!-- My Services -->
+  <div class="container" id="services">
+    <div class="text-center">
+      <h2 class="marker marker-center">My Services</h2>
+      <p class="mx-auto mb-3 lead" style="max-width: 600px">
+        I offer services fit for any website or app. I can quickly maximize
+        timely deliverables for real-time schemas.
+      </p>
+    </div>
+    <div class="row py-3">
+      <div class="col-md-3 text-center">
+        <img class="mb-2" src="assets/images/pc-display-horizontal.svg" width="96" height="96" alt="web design" />
+        <h5>Web Design</h5>
       </div>
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <div>
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-    
-  </div>
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
+      <div class="col-md-3 text-center">
+        <img class="mb-2" src="assets/images/pc-display-horizontal.svg" width="96" height="96" alt="graphic design" />
+        <h5>Graphic Design</h5>
       </div>
-      <!-- Experience -->
-      <div class="container my-5" id="experience">
-        <div class="text-center mb-3">
-          <h2 class="marker marker-center">Experience  </h2>
+      <div class="col-md-3 text-center">
+        <img class="mb-2" src="assets/images/pc-display-horizontal.svg" width="96" height="96" alt="ui-ux" />
+        <h5>UI/UX</h5>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="mb-2" src="assets/images/phone.svg" width="96" height="96" alt="app development" />
+        <h5>App Development</h5>
+      </div>
+    </div>
+  </div>
+  <!-- Skills -->
+  <div class="container my-5" id="skills">
+    <div class="text-center">
+      <h2>My Skills</h2>
+      <p class="mx-auto mb-3 lead" style="max-width: 600px">
+        I am a quick learner and specialize in multitude of skills required
+        for Web Application Development and Product Design
+      </p>
+    </div>
+    <div class="bg-light py-3 rounded-2">
+      <div class="row px-2">
+        <div class="col-md-5">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder">
+              <span class="me-auto">HTML5</span><span>90%</span>
+            </div>
+            <div class="progress my-1">
+              <div class=" bg-warning" role="progressbar" style="width: 90%"></div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-lg-6">
-            <div class="card mb-3 ">
-            <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-            
-            <h3 class="h5 mb-1">UI/UX Design</h3>
-            <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
-            <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="ui-ux">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder">
+              <span class="me-auto">CSS3</span><span>90%</span>
             </div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"></div>
             </div>
-            <div class="card-body px-3 py-2 lead">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+
+        </div>
+
+        <div class="col-md-5 offset-md-2">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder">
+              <span class="me-auto">JavaScript</span><span>80%</span>
             </div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%">
+              </div>
             </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder">
+              <span class="me-auto">React</span><span>75%</span>
             </div>
-            <div class="col-lg-6">
-            <div class="card mb-3">
-            <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-            <h3 class="h5 mb-1">App Development</h3>
-            <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
-            <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="app development">
+            <div class="progress my-1">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"></div>
             </div>
-            </div>
-            <div class="card-body px-3 py-2 lead">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <div class="card mb-3 " >
-            <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-            <h3 class="h5 mb-1">Web Design</h3>
-            <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
-            <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="web design">
-            </div>
-            </div>
-            <div class="card-body px-3 py-2 lead">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <div class="card mb-3" >
-            <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-            <div>
-            <h3 class="h5 mb-1">Full Stack Development</h3>
-            <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
-            </div><img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="full stack">
-            </div>
-            </div>
-            <div class="card-body px-3 py-2 lead">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-            </div>
-            </div>
-            </div>
-            </div>
+          </div>
+        </div>
       </div>
-      <!-- contact me -->
-<div class="container my-5" id="contactMe">
-<div class="text-center mb-3">
-<h2 class="marker marker-center">Contact Me</h2>
-</div>
-<div class="row">
-<div class="col-lg-6" >
-<div class="bg-light my-2 p-3 pt-2">
-  <form>
-<div class="form-group my-2">
-<label for="name" class="form-label fw-bolder">Name</label>
-<input class="form-control" type="text" id="name" name="name" >
-</div>
-<div class="form-group my-2">
-<label for="email" class="form-label fw-bolder">Email</label>
-<input class="form-control" type="email" id="email" name="_replyto" >
-</div>
-<div class="form-group my-2">
-<label for="message" class="form-label fw-bolder">Message</label>
-<textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required=""></textarea>
-</div>
-<button class="btn btn-primary mt-2" type="submit" >Send</button>
-</form>
-</div>
-</div>
-<div class="col-lg-6 lead mt-3">
-<h5>Let’s talk how I can help you!</h5>
-<p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
-<p>Or get in touch using my email, skype or my contact number.</p>
-<p>See you!</p>
-<div class="row">
-<div class="col-sm-2">
-<div class="pb-1">Email:</div>
-</div>
-<div class="col-sm-10">
-<div class="pb-1 fw-bolder">walter@company.com</div>
-</div>
-<div class="col-sm-2">
-<div class="pb-1">Skype:</div>
-</div>
-<div class="col-sm-10">
-<div class="pb-1 fw-bolder">username@skype.com</div>
-</div>
-<div class="col-sm-2">
-<div class="pb-1">Phone:</div>
-</div>
-<div class="col-sm-10">
-<div class="pb-1 fw-bolder">+0718-111-0011</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Footer -->
-<footer class="py-4 text-center bg-light">
-<div class="container">
-<h4>Abdul Rehman</h4>
-<p>Web Developer &amp; Mobile Application Developer</p>
-<nav role="navigation">
-<ul class="nav justify-content-center">
-<li class="nav-item"><img
-  src="./assets/images/twitter-x.svg"
-  alt=""
-  style="padding-right: 10px"
-/></a></li>
-<li class="nav-item"><img
-  src="./assets/images/facebook.svg"
-  alt=""
-  style="padding-right: 10px"
-/></a></li>
-<li class="nav-item"><img
-  src="./assets/images/instagram.svg"
-  alt=""
-  style="padding-right: 10px"
-/></a></li>
-<li class="nav-item"><img
-  src="./assets/images/linkedin.svg"
-  alt=""
-  style="padding-right: 10px"
-/></a></li>
-</ul>
-</nav>
-</div>
-<div class="text-small text-secondary">
-<div class="my-2">© Super Folio. All rights reserved.</div>
-</div>
-</footer>
-    <!-- Script For Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </div>
+  <!-- Portfolio -->
+  <div class="container my-5" id="portfolio">
+    <div class="text-center mb-3">
+      <h2 class="marker marker-center">Portfolio </h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div>
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+        </div>
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+      </div>
+    </div>
+  </div>
+  <!-- Experience -->
+  <div class="container my-5" id="experience">
+    <div class="text-center mb-3">
+      <h2 class="marker marker-center">Experience </h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card mb-3 ">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+
+              <h3 class="h5 mb-1">UI/UX Design</h3>
+              <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
+              <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="ui-ux">
+            </div>
+          </div>
+          <div class="card-body px-3 py-2 lead">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+              corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and
+              empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card mb-3">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="h5 mb-1">App Development</h3>
+              <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
+              <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="app development">
+            </div>
+          </div>
+          <div class="card-body px-3 py-2 lead">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+              corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and
+              empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card mb-3 ">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="h5 mb-1">Web Design</h3>
+              <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
+              <img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="web design">
+            </div>
+          </div>
+          <div class="card-body px-3 py-2 lead">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+              corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and
+              empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card mb-3">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Full Stack Development</h3>
+                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
+              </div><img src="./assets/images/pc-display-horizontal.svg" width="48" height="48" alt="full stack">
+            </div>
+          </div>
+          <div class="card-body px-3 py-2 lead">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+              corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and
+              empowerment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact me -->
+  <div class="container my-5" id="contactMe">
+    <div class="text-center mb-3">
+      <h2 class="marker marker-center">Contact Me</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="bg-light my-2 p-3 pt-2">
+          <form>
+            <div class="form-group my-2">
+              <label for="name" class="form-label fw-bolder">Name</label>
+              <input class="form-control" type="text" id="name" name="name">
+            </div>
+            <div class="form-group my-2">
+              <label for="email" class="form-label fw-bolder">Email</label>
+              <input class="form-control" type="email" id="email" name="_replyto">
+            </div>
+            <div class="form-group my-2">
+              <label for="message" class="form-label fw-bolder">Message</label>
+              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"
+                required=""></textarea>
+            </div>
+            <button class="btn btn-primary mt-2" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 lead mt-3">
+        <h5>Let’s talk how I can help you!</h5>
+        <p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
+        <p>Or get in touch using my email, skype or my contact number.</p>
+        <p>See you!</p>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="pb-1">Email:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">walter@company.com</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Skype:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">username@skype.com</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Phone:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">+0718-111-0011</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-light">
+    <div class="container">
+      <h4>Abdul Rehman</h4>
+      <p>Web Developer &amp; Mobile Application Developer</p>
+      <nav role="navigation">
+        <ul class="nav justify-content-center">
+
+          <li class="nav-item"><a href="https://x.com/Abdul15721?t=mwImVK30omRKnbU-OD9yDg&s=08 "><img
+                src="./assets/images/twitter-x.svg" alt="" style="padding-right: 10px" /></a></li>
+          <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=100051604160326&mibextid=ZbWKwL"><img
+                src="./assets/images/facebook.svg" alt="" style="padding-right: 10px" /></a></li>
+
+          <li class="nav-item"><a href="https://instagram.com/itz_abdulrehman_?igshid=OGQ5ZDc2ODk2ZA=="><img
+                src="./assets/images/instagram.svg" alt="" style="padding-right: 10px" /></a></li>
+
+          <li class="nav-item"><a
+              href="https://www.linkedin.com/in/abdul-rehman-08bb78200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img
+                src="./assets/images/linkedin.svg" alt="" style="padding-right: 10px" /></a></li>
+            
+                <li class="nav-item">
+                  <a href="https://github.com/abdul191">
+                    <img src="./assets/images/github.svg" alt="github" >
+                  </a>
+                </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="text-small text-secondary">
+      <div class="my-2">© Super Folio. All rights reserved.</div>
+    </div>
+  </footer>
+  <!-- Script For Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
